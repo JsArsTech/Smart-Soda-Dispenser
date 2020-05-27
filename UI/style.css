@@ -1,0 +1,61 @@
+body {
+	background: black;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#app {
+	padding-top: 70px;
+} 
+
+.select-box {
+	width: 70%;
+	margin: auto;
+	height: 150px;
+}
+
+.juice-box {
+	width: 33%;
+	text-align: center; 
+	float: left;
+}
+
+.juice-type {
+	border: 0;
+	border-radius: 150px;
+	text-align: center;
+	width: 140px;
+	line-height: 140px;
+	font-size: 18px;
+}
+
+.pour-bt-box {
+	width: 60%; 
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.pour-bt-box button {
+	text-align: center;
+	color: white;
+	border: white 2px solid;
+	padding: 20px 0px;
+	width: 60%;
+	background: transparent;
+	font-size: 18px;
+	border-radius: 30px;
+}
+
+.pour-bt-box label {
+	text-align: center;
+	color: yellow;
+	padding: 20px 0;
+	margin-top: 30px;
+	width: 60%;
+	background: transparent; 
+	font-size: 21px;
+	font-weight: lighter;
+	display: inline-block;
+}

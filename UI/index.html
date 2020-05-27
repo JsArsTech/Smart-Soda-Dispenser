@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Soda</title>
+	</head>
+	<link rel="stylesheet" href="style.css">
+	<body>
+		<div id="app">
+			<div class="select-box">
+				<div
+					class="juice-box" 
+					v-for="beverage of beverages">
+					<button 
+					class="juice-type"
+					v-on:click="select(beverage)"
+					v-bind:style="{color: beverage.wcolor, background: beverage.bgcolor}">
+						{{beverage.name}}
+					</button>
+				</div>
+			</div>
+			<div class="pour-bt-box">
+				<button v-if="!pouring" 
+				v-on:click="pour(true)">{{selection.name}}</button>
+				<button v-if="pouring" v-on:click="pour(false)">
+					Stop
+				</button>
+				<label v-if="pouring">Pouring {{selection.name}}</label>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ch4",
+  "version": "1.0.0",
+  "description": "IoT Soda Dispenser with Raspberry Pi and Electron App",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Arias",
+  "license": "ISC"
+}
